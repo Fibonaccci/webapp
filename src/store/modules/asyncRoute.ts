@@ -52,7 +52,7 @@ export const useAsyncRouteStore = defineStore({
     menus: [],
     routers: constantRouter,
     routersAdded: [],
-    keepAliveComponents: [],
+    keepAliveComponents: ['console'],
     // Whether the route has been dynamically added
     isDynamicRouteAdded: false,
   }),
